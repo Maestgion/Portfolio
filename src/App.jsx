@@ -1,9 +1,48 @@
-import React from 'react'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+
+import {
+  About,
+  Contact,
+  Experience,
+  Feedbacks,
+  Hero,
+  Navbar,
+  Tech,
+  Works,
+  StarsCanvas,
+} from "./components";
 
 const App = () => {
   return (
-    <>App</>
-  )
-}
+    <>
+      <BrowserRouter>
+        <div className="relative z-0 bg-primary">
+          {/* hero-section */}
 
-export default App
+          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+            <Navbar />
+            <Hero />
+          </div>
+          
+          {/* main-section */}
+          <About/>
+          <Experience/>
+          <Tech/>
+          <Works/>
+          <Feedbacks/>
+
+          {/* contact-star section */}
+          <div>
+            <Contact/>
+            <StarsCanvas/>
+          </div>
+
+
+        </div>
+      </BrowserRouter>
+    </>
+  );
+};
+
+export default App;
