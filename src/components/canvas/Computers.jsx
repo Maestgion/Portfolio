@@ -2,7 +2,9 @@ import React from 'react'
 
 const Computers = () => {
   return (
-    <div>Computers</div>
+    <section className='relative w-full h-screen mx-auto'>
+      Hero
+    </section>
   )
 }
 
