@@ -9,7 +9,7 @@ const Hero = () => {
       {/* main hero */}
 
       <div
-        className={`${styles.paddingX} flex flex-row gap-5 items-start  mx-auto max-w-7xl absolute inset-0 top-[120px]`}
+        className={`${styles.paddingX} flex flex-row gap-5 items-start  mx-auto max-w-7xl absolute inset-0 top-[100px]`}
       >
         {/* dot-container */}
 
