@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen  mx-auto">
       {/* main hero */}
 
       <div
