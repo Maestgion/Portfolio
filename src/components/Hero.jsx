@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white-100 mt-2`}>
             Hie There,{" "}
           </h1>
-          <h1 className={`${styles.heroHeadText} mt-2 text-white-100`}>
+          <h1 className={`${styles.heroHeadText}  text-white-100`}>
             I'm a{" "}
             <span className="text-[#915efd] inline-block">
               <Typewriter
@@ -57,6 +57,31 @@ const Hero = () => {
       </div>
 
       <ComputersCanvas/>
+
+      {/* scroll-gif */}
+
+      <div className="flex justify-center items absolute bottom-4 w-full ">
+
+                <a href="#about">
+                  <div className="flex justify-center items-start w-[35px] h-[60px] rounded-3xl border-4 border-secondary p-2" >
+                  <motion.div
+                    animate={{
+                      y: [0,24,0]
+                    }}
+                    transition={{
+                      duration:1.5,
+                      repeat:Infinity,
+                      repeatType: 'loop'
+
+                    }}
+                    className="w-3 h-3 rounded-full bg-secondary mb-1"
+                  />
+
+           
+                  </div>
+                </a>
+
+      </div>
 
     </section>
   );

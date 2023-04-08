@@ -24,8 +24,8 @@ const Computers = () => {
 
       <primitive
       object={computerModel.scene}
-      scale={0.75}
-      position={[0,-3.75, -1.5]}
+      scale={0.6}
+      position={[0,-3, -1.5]}
       rotation={[-0.01, 0.2, -0.1]}
       />
 
