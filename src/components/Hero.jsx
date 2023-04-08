@@ -30,8 +30,8 @@ const Hero = () => {
             <span className="text-[#915efd] inline-block">
               <Typewriter
                 onInit={(typewriter) => {
-                  typewriter
-                    .typeString("Web Developer")
+                  typewriter.changeDelay(50).
+                    typeString("Web Developer")
                     .changeDelay(50)
                     .pauseFor(200)
                     .deleteAll()
@@ -55,6 +55,9 @@ const Hero = () => {
           </h1>
         </div>
       </div>
+
+      <ComputersCanvas/>
+
     </section>
   );
 };
