@@ -247,7 +247,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "styled-comp",
           color: "pink-text-gradient",
         },
         {
