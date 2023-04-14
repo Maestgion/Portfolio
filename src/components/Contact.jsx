@@ -85,6 +85,15 @@ const Contact = () => {
           </form>
 
         </motion.div>
+
+        {/* earth model */}
+
+        <motion.div
+        vatriants = {slideIn('right', "tween", 0.2, 1)}
+        className="h-[350px] xl:flex-1 xl:h-auto md:h-[550px] "
+        >
+          <EarthCanvas/>
+        </motion.div>
       </div>
     </>
   );
