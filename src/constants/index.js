@@ -4,7 +4,6 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
@@ -13,8 +12,6 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     srm,
     cn,
     envision,
@@ -23,6 +20,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    nextjs,
+    expressjs,
+    bs,
+    mui,
+    framerMotion
   } from "../assets";
   
   export const navLinks = [
@@ -73,8 +75,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "React JS",
@@ -89,8 +91,24 @@ import {
       icon: tailwind,
     },
     {
+      name: "Bootstrap",
+      icon: bs,
+    },
+    {
+      name: "Material Ui",
+      icon: mui,
+    },
+    {
+      name: "Framer Motion",
+      icon: framerMotion,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "Express JS",
+      icon: expressjs,
     },
     {
       name: "MongoDB",
@@ -104,14 +122,7 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+ 
   ];
   
   const experiences = [

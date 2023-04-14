@@ -18,9 +18,12 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
+import nextjs from "./tech/nextjs.png";
 import threejs from "./tech/threejs.svg";
-
+import expressjs from "./tech/expressjs.png";
+import bs from "./tech/bs.png";
+import mui from "./tech/mui.png";
+import framerMotion from "./tech/framerMotion.png";
 import srm from "./company/srm.jpeg";
 import coder from "./company/coder.png";
 import cn from "./company/cn.png";
@@ -50,7 +53,7 @@ export {
   reactjs,
   redux,
   tailwind,
-  typescript,
+  nextjs,
   threejs,
   srm,
   coder,
@@ -59,4 +62,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  expressjs,
+  bs,
+  mui,
+  framerMotion
+
 };
