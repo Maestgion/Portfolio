@@ -33,7 +33,7 @@ const ProjectCard = ({
 
           {/* sub-container */}
 
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[200px]'>
           <img
             src={image}
             alt='project_image'

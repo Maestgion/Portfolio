@@ -11,7 +11,6 @@ import {
     tailwind,
     nodejs,
     mongodb,
-    git,
     srm,
     cn,
     envision,
@@ -124,10 +123,7 @@ import {
       name: "Three JS",
       icon: threejs,
     },
-    {
-      name: "git",
-      icon: git,
-    },
+
  
   ];
   
@@ -215,7 +211,7 @@ import {
     {
       name: "Write To Me",
       description:
-        "Web application that is aimed to form a community allowing users to contact me!!",
+        "Web application that is aimed to form a community. Though the whole concept is under-development.",
       tags: [
         {
           name: "react",

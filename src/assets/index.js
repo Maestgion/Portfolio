@@ -28,7 +28,7 @@ import srm from "./company/srm.jpeg";
 import coder from "./company/coder.png";
 import cn from "./company/cn.png";
 import envision from "./company/envision.jpeg";
-
+import styled from "./tech/styledComponents.png"
 import writeToMe from "./projects/write-to-me.png";
 import shoppie from "./projects/shoppie.png";
 import myWeather from "./projects/my-weather.png";
@@ -62,9 +62,11 @@ export {
   expressjs,
   bs,
   mui,
+  styled,
   framerMotion,
   writeToMe,
   shoppie,
   myWeather
+
 
 };
