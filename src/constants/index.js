@@ -16,15 +16,17 @@ import {
     cn,
     envision,
     coder,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     nextjs,
     expressjs,
     bs,
     mui,
-    framerMotion
+    framerMotion,
+    styled,
+    writeToMe,
+    shoppie,
+    myWeather,
+    
   } from "../assets";
   
   export const navLinks = [
@@ -97,6 +99,10 @@ import {
     {
       name: "Material Ui",
       icon: mui,
+    },
+    {
+      name: "Styled Components",
+      icon: styled,
     },
     {
       name: "Framer Motion",
@@ -207,9 +213,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Write To Me",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that is aimed to form a community allowing users to contact me!!",
       tags: [
         {
           name: "react",
@@ -223,14 +229,18 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: writeToMe,
+      site_link: "https://write-to-me-frontend.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Shoppie",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An E-commerce platform allowing users to have a hassle-free online shopping experience.",
       tags: [
         {
           name: "react",
@@ -241,33 +251,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: shoppie,
+      site_link: "https://shoppie-eight.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "My Weather",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A weather application allowing users to check the current weather and weather forcast for the upcoming days.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: myWeather,
+      site_link: "https://my-weather-gray.vercel.app/",
     },
   ];
   

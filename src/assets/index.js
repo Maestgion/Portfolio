@@ -1,9 +1,9 @@
 import logo from "./logo.gif";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
+import backend from "./intro/backend.png";
+import creator from "./intro/creator.png";
+import mobile from "./intro/mobile.png";
+import web from "./intro/web.png";
+import github from "./projects/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,9 +29,9 @@ import coder from "./company/coder.png";
 import cn from "./company/cn.png";
 import envision from "./company/envision.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import writeToMe from "./projects/write-to-me.png";
+import shoppie from "./projects/shoppie.png";
+import myWeather from "./projects/my-weather.png";
 
 export {
   logo,
@@ -59,12 +59,12 @@ export {
   coder,
   cn,
   envision,
-  carrent,
-  jobit,
-  tripguide,
   expressjs,
   bs,
   mui,
-  framerMotion
+  framerMotion,
+  writeToMe,
+  shoppie,
+  myWeather
 
 };
